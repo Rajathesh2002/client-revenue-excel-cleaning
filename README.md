@@ -1,40 +1,43 @@
-# client-revenue-excel-cleaning
-Excel-based data cleaning project to fix formatting, value errors, and ensure numeric accuracy
-# Client Revenue – Excel Data Cleaning Project
+# Client Revenue Excel Cleaning Project
 
-This Excel-based project showcases practical data cleaning using Microsoft Excel on a client revenue dataset. The original file contained:
-
-- Overflow errors (#####) in numeric columns
-- Inconsistent department naming
-- Formatting issues across columns
+🧼 A real-world Excel-based data cleaning project to:
+- Fix inconsistent formatting
+- Correct value and profit margin errors
+- Ensure numeric accuracy for analysis
 
 ---
 
-## 🧹 Cleaning Performed
+## 📂 Files Included
 
-- Adjusted columns to fix `#####` errors
-- Cleaned inconsistent department names (e.g., “Cloud Tech” vs “cloud tech”)
-- Verified formulas for Revenue, Profit, and Margin
-- Exported to cleaned version for analysis
+| File Name | Description |
+|-----------|-------------|
+| `raw_dataset.xlsx` | Uncleaned original Excel file |
+| `cleaned_dataset.xlsx` | Cleaned and formatted Excel version |
+| `before_cleaning.jpg` | Screenshot of messy data |
+| `after_cleaning.jpg` | Screenshot of cleaned data |
 
 ---
 
-## 📁 Files in This Repo
+## 📊 Cleaning Performed
 
-| File | Description |
-|------|-------------|
-| `raw_dataset.xlsx` | Uncleaned input file |
-| `cleaned_dataset.xlsx` | Final cleaned dataset |
-| `screenshots/` | Optional before/after Excel screenshots |
+- Removed extra symbols and inconsistent currency formatting
+- Ensured profit margins were calculated properly
+- Aligned columns and renamed headers
+- Applied data filters and sorting
+
+---
+
+## 📸 Before vs After
+
+### 🔴 Before Cleaning
+![Before Cleaning](before_cleaning.jpg)
+
+### ✅ After Cleaning
+![After Cleaning](after_cleaning.jpg)
 
 ---
 
 ## 🛠 Tools Used
-
 - Microsoft Excel
+- Manual data cleaning techniques (no-code)
 
----
-
-**Author:** Rajathesh H M  
-📍 Bengaluru, India  
-🔗 [GitHub Profile](https://github.com/rajathesh2002)
